@@ -54,7 +54,6 @@ mm.add("(min-width: 768px)", () => {
         y: "8vh",
         rotation: 160,
         scale: 0.8,
-        opacity: 0,
         ease: "power1.inOut"
     }, 0)
     .to("#traveling-chili", {
@@ -63,7 +62,7 @@ mm.add("(min-width: 768px)", () => {
         y: "-5vh",
         rotation: 260,
         scale: 0.6,
-        opacity: 0,
+        opacity: 0.3,
         ease: "power1.inOut"
     }, 1)
     .to("#traveling-chili", {
@@ -72,7 +71,7 @@ mm.add("(min-width: 768px)", () => {
         y: "15vh",
         rotation: 375, // Spin a bit and land
         scale: 0.35,
-        opacity: 0,
+        opacity: 1,
         ease: "power2.out"
     }, 2);
     
